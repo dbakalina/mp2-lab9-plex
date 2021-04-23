@@ -1,12 +1,15 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "Stack.h"
 
 using namespace System;
 using namespace System::Drawing;
 
 class TChart;
-struct TLine {
+class TPoint;
+struct TLine 
+{
 	TChart* pChart;
 	TPoint* pFp, * pLp;
 };
